@@ -21,9 +21,12 @@ public class MigrationInformation {
         return Integer.parseInt(amountOfPeople);
     }
 
-    public void showInfo() {
-        System.out.println(
-                initialData + " " + releaseDate + " " + type + " " + gender + " " + age + " " + amountOfPeople);
+    public String getInfo() {
+        return initialData + " " + releaseDate + " " + type + " " + gender + " " + age + " " + amountOfPeople;
+    }
+
+    public int size() {
+        return 0;
     }
 
 }
